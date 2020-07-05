@@ -1,3 +1,17 @@
 *{
-    padding: 5px;
+    direction: rtl;
+}
+@font-face{
+    font-family: iransans;
+    src: url('../Fonts/IRANSans/IRANSans-web.eot') format('eot'),
+    url('../Fonts/IRANSans/IRANSans-web.ttf') format('ttf'),
+    url('../Fonts/IRANSans/IRANSans-web.woff') format('woff');
+}
+.article{
+    background-color: #F8F8F8;
+    font-family: iransans;
+}
+
+p,h1{
+    text-align: right;
 }
